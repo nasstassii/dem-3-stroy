@@ -7,7 +7,7 @@ powershell
 cd C:\Users\Ваше_Имя\Desktop
 3. Склонируйте репозиторий:
 powershell
-git clone https://github.com/nasstassii/dem-4-toys.git
+git clone https://github.com/nasstassii/dem-3-stroy.git
 4. Перейдите в папку проекта:
 powershell
 cd dem-4-toys
