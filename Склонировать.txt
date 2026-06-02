@@ -1,0 +1,20 @@
+Отличный вопрос! Вот как склонировать ваш репозиторий на другой компьютер:
+
+Способ 1: Через HTTPS (проще, рекомендуется)
+1. На другом ПК откройте терминал (PowerShell или CMD)
+2. Перейдите в папку, куда хотите склонировать проект:
+powershell
+cd C:\Users\Ваше_Имя\Desktop
+3. Склонируйте репозиторий:
+powershell
+git clone https://github.com/nasstassii/dem-4-toys.git
+4. Перейдите в папку проекта:
+powershell
+cd dem-4-toys
+5. Создайте виртуальное окружение (если нужно):
+powershell
+python -m venv .venv
+.venv\Scripts\activate
+6. Установите зависимости (если есть файл requirements.txt):
+powershell
+pip install -r requirements.txt
